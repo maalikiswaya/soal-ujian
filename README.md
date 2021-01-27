@@ -2,7 +2,7 @@
 Kerjakan soal berikut dengan menggunakan logic bahasa program yang dikuasai (diutamakan javascript).
 Masukan jawaban kalian ke repository di GitHub,lalu share URL repository tersebut ke alamat email upttik.ut.ac.id@gmail.com
 
-#Question 
+#Logic dan Programming
 1.Buatlah program yang dapat menentukan grade dari suatu masukan angka ,dengan kriteria sebagai berikut: 
     -jika angka lebih besar atau sama dengan 90,maka output adalah huruf A
 	  -jika angka diantara 80 dan 89,maka output adalah huruf B
@@ -12,15 +12,15 @@ Masukan jawaban kalian ke repository di GitHub,lalu share URL repository tersebu
 
 Example
 
-Grade(10) // output E
-Grade(80) // output B
+Grade(40) // output E
+Grade(82) // output B
 Grade(90) // output A
 
 
 2.Buatlah  program fungsi untuk menentukan suatu bilangan merupakan bilangan ganjil atau genap.
 
-Oddeven(10) // output genap
-Oddeven(5) // ooutput ganjil
+Oddeven(8) // output genap
+Oddeven(3) // ooutput ganjil
 
 
 3.Buatlah program untuk menetukan nilai maksimum,minimum,dan rata-rata dari 100 deretan angka acak
@@ -50,28 +50,32 @@ leepYear(1600,2020)
 // output 2000 adalah tahun kabisat
 // output 2009 adalah bukan tahun kabisat
 
-
-6.Buatlah program rekursif. Anda bebas menentukan input dan output dari fungsi tersebut,tetapi harus rekursif.
-
-7.Buatlah program untuk membalikkan semua kata-kata yang terdapat dalam kalimat .
+6.Buatlah program untuk membalikkan semua kata-kata yang terdapat dalam kalimat .
 
 Reverse(“warta niaga”)
 // output again atraw
 
+7.Buatlah program untuk menghilangkan data ganda dari JSON berikut ini
 
-8.buatlah program yang dapat melakukan inputan angka tanpa batas menggunakan ‘prompt’.semua inputan tersebut akan di jumlahkan.Tetapi jika inputan adalah ‘=’,maka proses akan berakhir dan hasil penjumlahan akan keluar.
+[“Slawi”,”Bengkulu”,”Mamuju”,”Medan”,”Bontang”,”Timika”,”Slawi”,”Banjarmasin”,”Mamuju”,”Solo”,”Palembang”,”Banjarmasin”]
 
-9.Buatlah program untuk menghilangkan data ganda dari JSON berikut ini
+#Databasedi database ada tabel registrasi matakuliah dengan isian berikut
+   +--------+----------+
+   |  mhsid |  matkul  |
+   +--------+----------+
+   |   1    |    A     |
+   +--------+----------+
+   |   1    |    B     |
+   +--------+----------+
+   |   2    |    A     |
+   +--------+----------+
+   |   2    |    c     |
+   +--------+----------+
 
-[“Jakarta”,”Aceh”,”Malang”,”Medan”,”Bontang”,”Jogja”,”Jakarta”,”Bandung”,”Malang”,”Solo”,”Palembang”,”Bandung”]
-
-10.Buatlah program untuk mencari orang yang berusia di bawah 21 tahun dari JSON  berikut ini
-[
-{“id”:1,”name”:”Udin”,”age”: 12},
-{“id”:2,”name”:”Reane”,”age”: 51},
-{“id”:3,”name”,”Budi”,”age”: 34},
-{“id”:4,”name”,”Agus”,”age”: 16},
-{“id”:5,”name”,”Sari”,”age”: 19},
-{“id”:6,”name”,”Ririn”,”age”: 20},
-{“id”:7,”name”,”Dessy”,”age”: 23}
-]
+buatlah queri yang menampilkan rekap jumlah matakuliah yg diregistrasikan 
+   +------+-----+-----+
+   |   A  |  B  |  C  |
+   +------+-----+-----+
+   |   2  |  1  |  1  |
+   +------+-----+-----+
+   
